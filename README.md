@@ -191,3 +191,47 @@ Agregamos las siguentes clases a sus contendores para obtener su estilo.
 .btn-group: Grupo de botones horizontales.
 .btn-group-vertical: Grupo de botones verticales.
 
+------------------------------------------------------------------------------------------------
+
+Espaciado gap
+
+.gap-xx: <576px.
+.gap-sm-xx: ≥576px.
+.gap-md-xx: ≥768px.
+.gap-lg-xx: ≥992px.
+.gap-xl-xx: ≥1200px.
+
+------------------------------------------------------------------------------------------------
+
+Espaciado entre columnas
+
+.offset-md-4: Añade 4 espacios a la izquierda del div.
+Se grafica de esta manera:
+
+ <div class="row"> <!-- Clase contenedora -->
+ <!-- Div de 4 columnas, lo encontraremos a la izquierda ocupando los 4 primeros lugares -->
+  <div class="col-md-4">.col-md-4</div> 
+  <!-- Div de 4 columnas, lo encontraremos a la derecha ocupando los 4 ultimos lugares, clase offset ocupara los 4 lugares del medio, entres los 2 divs -->
+  <div class="col-md-4 offset-md-4">.col-md-4 .offset-md-4</div>
+</div>
+
+------------------------------------------------------------------------------------------------
+
+Margenes
+
+.m-xx: (margin).
+.mt-xx: (margin-top).
+.mb-xx: (margin-button).
+.ml-xx: (margin-left).
+.mr-xx: (margin-right).
+.ml-auto: (margin-left) Ocupara el margen izquierdo que tenga disponible.
+.mr-auto: (margin-right) Ocupara el margen derecho que tenga disponible.
+
+Margenes Responsive
+
+.ml-3: Aparece en todos.	
+.ml-3 .ml-sm-0: Aparece solo en xs.	
+.ml-sm-3 .ml-md-0: Aparece solo en sm.	
+.ml-md-3 .ml-lg-0: Aparece solo en md.	
+.ml-lg-3 .d-xl-0: Aparece solo en lg.	
+.ml-xl-3: Aparece solo en xl.	
